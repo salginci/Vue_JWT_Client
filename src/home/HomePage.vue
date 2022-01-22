@@ -2,7 +2,7 @@
     <div>
         <h1>Hi {{user.firstName}}!</h1>
         <p>Logging into .netCore JWT with Mysql is successfull </p>
-        <h3>Logged in User</h3>
+        <h3> Users List</h3>
         <em v-if="users.loading">Loading users...</em>
         <span v-if="users.error" class="text-danger">ERROR: {{users.error}}</span>
         <ul v-if="users.items">
